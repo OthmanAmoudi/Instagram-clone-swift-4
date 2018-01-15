@@ -1,0 +1,27 @@
+//
+//  ViewController.swift
+//  instagram-clone-swift-4
+//
+//  Created by Othman Mashaab on 15/01/2018.
+//  Copyright © 2018 Othman Mashaab. All rights reserved.
+//
+
+import UIKit
+
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        
+        
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+
+
+}
+
