@@ -7,17 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49193496200DFA9C00DB0269 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49193495200DFA9C00DB0269 /* SignUpViewController.swift */; };
+		49193498200E14E700DB0269 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49193497200E14E700DB0269 /* HomeViewController.swift */; };
+		4919349A200E14F100DB0269 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49193499200E14F100DB0269 /* SearchViewController.swift */; };
+		4919349C200E14F900DB0269 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4919349B200E14F900DB0269 /* DiscoverViewController.swift */; };
+		4919349E200E150700DB0269 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4919349D200E150700DB0269 /* CameraViewController.swift */; };
+		491934A0200E151900DB0269 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4919349F200E151900DB0269 /* ActivityViewController.swift */; };
+		491934A2200E152200DB0269 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491934A1200E152200DB0269 /* ProfileViewController.swift */; };
+		491934A5200E1B7600DB0269 /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491934A3200E1B7600DB0269 /* Start.storyboard */; };
+		4941CF87200E54E200C89092 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4941CF85200E54E200C89092 /* Home.storyboard */; };
+		4941CF89200E551700C89092 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4941CF88200E551700C89092 /* Discover.storyboard */; };
+		4941CF8C200E555C00C89092 /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4941CF8A200E555C00C89092 /* Camera.storyboard */; };
+		4941CF8E200E557800C89092 /* Activity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4941CF8D200E557800C89092 /* Activity.storyboard */; };
+		4941CF96200E56A900C89092 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4941CF94200E56A900C89092 /* Profile.storyboard */; };
 		495672D5200CC50900D04395 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495672D4200CC50900D04395 /* AppDelegate.swift */; };
-		495672D7200CC50900D04395 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495672D6200CC50900D04395 /* ViewController.swift */; };
+		495672D7200CC50900D04395 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495672D6200CC50900D04395 /* SignInViewController.swift */; };
 		495672DA200CC50900D04395 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495672D8200CC50900D04395 /* Main.storyboard */; };
 		495672DC200CC50900D04395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 495672DB200CC50900D04395 /* Assets.xcassets */; };
 		495672DF200CC50900D04395 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495672DD200CC50900D04395 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49193495200DFA9C00DB0269 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		49193497200E14E700DB0269 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		49193499200E14F100DB0269 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		4919349B200E14F900DB0269 /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		4919349D200E150700DB0269 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		4919349F200E151900DB0269 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		491934A1200E152200DB0269 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		491934A4200E1B7600DB0269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "instagram-clone-swift-4/Base.lproj/Start.storyboard"; sourceTree = "<group>"; };
+		4941CF86200E54E200C89092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "instagram-clone-swift-4/instagram-clone-swift-4/Base.lproj/Home.storyboard"; sourceTree = "<group>"; };
+		4941CF88200E551700C89092 /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
+		4941CF8B200E555C00C89092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "instagram-clone-swift-4/instagram-clone-swift-4/Base.lproj/Camera.storyboard"; sourceTree = "<group>"; };
+		4941CF8D200E557800C89092 /* Activity.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Activity.storyboard; sourceTree = "<group>"; };
+		4941CF95200E56A900C89092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "instagram-clone-swift-4/instagram-clone-swift-4/Base.lproj/Profile.storyboard"; sourceTree = "<group>"; };
 		495672D1200CC50900D04395 /* instagram-clone-swift-4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "instagram-clone-swift-4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		495672D4200CC50900D04395 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		495672D6200CC50900D04395 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		495672D6200CC50900D04395 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		495672D9200CC50900D04395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		495672DB200CC50900D04395 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		495672DE200CC50900D04395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +61,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4941CF97200E660400C89092 /* SignInViews */ = {
+			isa = PBXGroup;
+			children = (
+				495672D6200CC50900D04395 /* SignInViewController.swift */,
+				49193495200DFA9C00DB0269 /* SignUpViewController.swift */,
+				495672D8200CC50900D04395 /* Main.storyboard */,
+			);
+			path = SignInViews;
+			sourceTree = "<group>";
+		};
+		4941CF98200E663F00C89092 /* HomeViews */ = {
+			isa = PBXGroup;
+			children = (
+				4941CF85200E54E200C89092 /* Home.storyboard */,
+				49193497200E14E700DB0269 /* HomeViewController.swift */,
+			);
+			path = HomeViews;
+			sourceTree = "<group>";
+		};
+		4941CF99200E665700C89092 /* DiscoverViews */ = {
+			isa = PBXGroup;
+			children = (
+				4941CF88200E551700C89092 /* Discover.storyboard */,
+				4919349B200E14F900DB0269 /* DiscoverViewController.swift */,
+			);
+			path = DiscoverViews;
+			sourceTree = "<group>";
+		};
+		4941CF9B200E667700C89092 /* CameraViews */ = {
+			isa = PBXGroup;
+			children = (
+				4941CF8A200E555C00C89092 /* Camera.storyboard */,
+				4919349D200E150700DB0269 /* CameraViewController.swift */,
+			);
+			path = CameraViews;
+			sourceTree = "<group>";
+		};
+		4941CF9C200E668500C89092 /* ActivityViews */ = {
+			isa = PBXGroup;
+			children = (
+				4941CF8D200E557800C89092 /* Activity.storyboard */,
+				4919349F200E151900DB0269 /* ActivityViewController.swift */,
+			);
+			path = ActivityViews;
+			sourceTree = "<group>";
+		};
+		4941CF9D200E66A300C89092 /* ProfileViews */ = {
+			isa = PBXGroup;
+			children = (
+				4941CF94200E56A900C89092 /* Profile.storyboard */,
+				491934A1200E152200DB0269 /* ProfileViewController.swift */,
+			);
+			path = ProfileViews;
+			sourceTree = "<group>";
+		};
 		495672C8200CC50900D04395 = {
 			isa = PBXGroup;
 			children = (
@@ -55,8 +136,14 @@
 			isa = PBXGroup;
 			children = (
 				495672D4200CC50900D04395 /* AppDelegate.swift */,
-				495672D6200CC50900D04395 /* ViewController.swift */,
-				495672D8200CC50900D04395 /* Main.storyboard */,
+				491934A3200E1B7600DB0269 /* Start.storyboard */,
+				4941CF97200E660400C89092 /* SignInViews */,
+				4941CF98200E663F00C89092 /* HomeViews */,
+				4941CF99200E665700C89092 /* DiscoverViews */,
+				4941CF9B200E667700C89092 /* CameraViews */,
+				4941CF9C200E668500C89092 /* ActivityViews */,
+				4941CF9D200E66A300C89092 /* ProfileViews */,
+				49193499200E14F100DB0269 /* SearchViewController.swift */,
 				495672DB200CC50900D04395 /* Assets.xcassets */,
 				495672DD200CC50900D04395 /* LaunchScreen.storyboard */,
 				495672E0200CC50900D04395 /* Info.plist */,
@@ -124,8 +211,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				495672DF200CC50900D04395 /* LaunchScreen.storyboard in Resources */,
+				4941CF8C200E555C00C89092 /* Camera.storyboard in Resources */,
+				4941CF87200E54E200C89092 /* Home.storyboard in Resources */,
+				491934A5200E1B7600DB0269 /* Start.storyboard in Resources */,
 				495672DC200CC50900D04395 /* Assets.xcassets in Resources */,
 				495672DA200CC50900D04395 /* Main.storyboard in Resources */,
+				4941CF96200E56A900C89092 /* Profile.storyboard in Resources */,
+				4941CF89200E551700C89092 /* Discover.storyboard in Resources */,
+				4941CF8E200E557800C89092 /* Activity.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,14 +229,53 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				495672D7200CC50900D04395 /* ViewController.swift in Sources */,
+				4919349A200E14F100DB0269 /* SearchViewController.swift in Sources */,
+				495672D7200CC50900D04395 /* SignInViewController.swift in Sources */,
 				495672D5200CC50900D04395 /* AppDelegate.swift in Sources */,
+				491934A0200E151900DB0269 /* ActivityViewController.swift in Sources */,
+				4919349C200E14F900DB0269 /* DiscoverViewController.swift in Sources */,
+				4919349E200E150700DB0269 /* CameraViewController.swift in Sources */,
+				491934A2200E152200DB0269 /* ProfileViewController.swift in Sources */,
+				49193496200DFA9C00DB0269 /* SignUpViewController.swift in Sources */,
+				49193498200E14E700DB0269 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		491934A3200E1B7600DB0269 /* Start.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				491934A4200E1B7600DB0269 /* Base */,
+			);
+			name = Start.storyboard;
+			sourceTree = "<group>";
+		};
+		4941CF85200E54E200C89092 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4941CF86200E54E200C89092 /* Base */,
+			);
+			name = Home.storyboard;
+			sourceTree = "<group>";
+		};
+		4941CF8A200E555C00C89092 /* Camera.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4941CF8B200E555C00C89092 /* Base */,
+			);
+			name = Camera.storyboard;
+			sourceTree = "<group>";
+		};
+		4941CF94200E56A900C89092 /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4941CF95200E56A900C89092 /* Base */,
+			);
+			name = Profile.storyboard;
+			sourceTree = "<group>";
+		};
 		495672D8200CC50900D04395 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
